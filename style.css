@@ -1,0 +1,115 @@
+* {
+  font-family: "Caprasimo", cursive;
+  font-family: "DynaPuff", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: #222222;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.head-btn {
+  border: none;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 30px;
+  height: 65px;
+}
+
+.header-txt {
+  color: #eeeeee;
+  font-size: 25px;
+}
+
+.guess {
+  font-size: 60px;
+  color: #eee;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.main {
+  border-bottom: 5px solid #eee;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.rectangle {
+  position: absolute;
+  background-color: #eee;
+  width: 130px;
+  height: 130px;
+  font-size: 80px;
+  text-align: center;
+  top: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.gird-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 110px;
+}
+
+.grid-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 200px;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.grid-2 p {
+  font-size: 30px;
+  color: #eee;
+}
+
+.first-p {
+  letter-spacing: 10px;
+}
+
+.number-input {
+  border: 5px solid #eee;
+  height: 100px;
+  width: 220px;
+  font-size: 50px;
+  color: #eee;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+  color: black;
+}
+
+.foot-btn {
+  border: none;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 30px;
+  height: 65px;
+}
